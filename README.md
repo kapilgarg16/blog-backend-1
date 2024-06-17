@@ -1,3 +1,19 @@
+- Requirement analysis
+- Streams API
+    - https://www.youtube.com/watch?v=CwOfjXPL6-Q
+- @RestControllerAdvice for global exception handler
+- fetchType, cascade
+- @onetomany, @manytoone
+- modelmapper
+- Layer architecture
+- Database design for a blog application
+- Validation for API
+- Handle Custom exceptions
+- autowired a interface [jdk.proxy/$Proxy99]
+- ResponseEntity
+
+
+
 # blog-backend-1<img width="636" alt="Screenshot 2024-06-11 at 10 34 16 PM" src="https://github.com/kapilgarg16/blog-backend-1/assets/55026503/c0f67e98-78a4-4eaf-bc3a-68ac0f0c9b25">
 <img width="734" alt="Screenshot 2024-06-11 at 10 39 46 PM" src="https://github.com/kapilgarg16/blog-backend-1/assets/55026503/9997f616-c34f-4c97-942e-f1c24e0685ab">
 <img width="714" alt="Screenshot 2024-06-11 at 10 40 56 PM" src="https://github.com/kapilgarg16/blog-backend-1/assets/55026503/a5055b6b-f868-4a17-b714-1ed8f6e081d9">
