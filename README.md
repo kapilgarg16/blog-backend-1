@@ -11,6 +11,8 @@
 - Handle Custom exceptions
 - autowired a interface [jdk.proxy/$Proxy99]
 - ResponseEntity
+- Pagination the response
+- sorting the response
 
 
 
