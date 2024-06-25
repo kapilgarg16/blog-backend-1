@@ -6,15 +6,16 @@ import org.springframework.stereotype.Service;
 
 import com.blogprojectIO.entities.Post;
 import com.blogprojectIO.payloads.PostDto;
+import com.blogprojectIO.payloads.PostResponse;
 
 @Service
 public interface PostService {
 	PostDto createPost(PostDto postDto, Integer userId, Integer categoryId);
 	PostDto updatePost(PostDto postDto, Integer postId);
 	PostDto getPostById(Integer postId);
-	List<PostDto> getAllPost();
-	List<PostDto> getAllUserPost(Integer postId);
-	List<PostDto> getAllCategoryPost(Integer categoryId);
+	PostResponse getAllPost(Integer pageNumber, Integer pageSize, String sortBy, String sortDir);
+	PostResponse getAllUserPost(Integer userId, Integer pageNumber, Integer pageSize, String sortBy, String sortDir);
+	PostResponse getAllCategoryPost(Integer categoryId, Integer pageNumber, Integer pageSize, String sortBy, String sortDir);
 	void deletePostById(Integer postId);
 	List<PostDto> searchPost(String keyword);
 }

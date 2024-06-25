@@ -14,6 +14,8 @@ import jakarta.validation.constraints.Size;
 
 public class PostDto {
 	
+	private Integer postId;
+	
 	@NotEmpty
 	@Size(min = 5,message = "length is too short")
 	private String title;
