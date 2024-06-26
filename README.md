@@ -13,6 +13,9 @@
 - ResponseEntity
 - Pagination the response
 - sorting the response
+- JPql creating a custom query for searchine
+- final, Instance Initialization Block static block
+- Static final
 
 
 
